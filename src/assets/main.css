@@ -1,0 +1,27 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  min-width: 320px;
+  font-family: 'Roboto', serif;
+  width: 100%;
+  min-height: 100vh;
+  background: linear-gradient(125deg, rgba(210, 226, 40, 1) 41%, rgb(83, 197, 122) 100%) no-repeat;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.page {
+  width: 100%;
+  margin: 0 30px;
+}
+
+@media (max-width: 500px) {
+  .page {
+    margin: 0 10px;
+  }
+}
